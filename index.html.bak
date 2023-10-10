@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+
+      rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link type="text/css
+                " rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators"
+
+              data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+
+              aria-label="Slide 2"></button> </div>
+          <div class="carousel-inner">
+            <div class="text-center">
+              <div class="carousel-item active"> <a id="fr"><img src="images/1.jpg"
+
+                    class="d-block w-100" alt="..."></a> </div>
+            </div>
+            <div class="row">
+              <div class="carousel-item"> <img src="images/2.jpg" class="d-block w-100"
+
+                  alt="..."> </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+
+            data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next"
+
+            type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span> </button> </div>
+      </div>
+      <div class="row">
+        <nav class="navbar fixed-top  navbar-expand-lg bg-body-tertiary   ">
+          <div class="container-fluid   "> <a class="navbar-brand" href="#fr" target="_top">Patrada.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+
+              aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ">
+                <li class="nav-item"> <a class="nav-link" href="#edu" target="_top">EDUCATION</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#exp" target="_top">EXPERIENCE</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#unv" target="_top">UNIVERSITY
+                    ACTIVITY</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#skl" target="_top">SKILLS</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#car" target="_top">CAREER
+                    OBJECTIVE</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#con" target="_top">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="row">
+        <div> <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class=" fw-bold    text-center">
+          <p class="fs-1"><a id="edu">EDUCATION</a></p>
+        </div>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <br>
+        <div class="col-md-6 card " style=" width: 18rem  "> <img src="images/silpa.jpg"
+
+            alt="...">
+          <div class=" card-body  "> <span class="placeholder col-12 bg-danger"></span>
+            <h5 class="card-title" style="text-align: center;"><b>UNIVERSITY</b></h5>
+            <b> </b>
+            <h5 class="card-title" style="text-align: center;"><b>(2018-2022)</b></h5>
+            <p class="card-text" style="text-align: center;">Bachelor of Arts,
+              Major in Information and Library Science <b>Silpakorn
+                University&nbsp;</b> </p>
+            <p class="card-text" style="text-align: center;">| GPA: 3.6</p>
+            <a href="https://www.su.ac.th" class="btn btn-primary" target="_blank">Go
+              somewhere</a> </div>
+          <br>
+        </div>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br>
+        <div class=" card " style="width: 18rem  ;"> <img src="images/kpn.jpg"
+
+            class="col-md-6 card-img-top" alt="...">
+          <div class=" card-body  "> <span class="placeholder col-12 bg-danger"></span>
+            <h5 class="card-title" style="text-align: center;"><b>HIGH SCHOOL</b></h5>
+            <h5 class="card-title" style="text-align: center;"><b>(2015-2018)</b></h5>
+            <div style="text-align: center;"> Major in French and English</div>
+            <div style="text-align: center;"><b>Kanjanapisek wittayalai</b></div>
+            <div style="text-align: center;"><b> Nakhon Pathom school</b></div>
+            <div style="text-align: center;"> | GPA: 3.8 </div>
+            <p></p>
+            <a href="https://www.kjn.ac.th" class="btn btn-primary" target="_blank">Go
+              somewhere</a> </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+        <div class="col-md-4 text-start"></div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <hr align="center" width="50%" size="5" color="black"> </div>
+      <br>
+      <div class="row">
+        <div class=" fw-bold    text-center">
+          <p class="fs-1"><a id="exp">EXPERIENCE</a></p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-container timeline-left">
+            <div class="timeline-content">
+              <h4> <b><span style="color: #ff99ff;">Feb 2021 - May 2021</span></b></h4>
+              <p><b><span style="color: #bfbfbf;">&nbsp;Librarian(Intern) | TK
+                    Park, Bangkok</span></b></p>
+              <ul>
+                <li>Collected and cataloged library resources including
+                  books,films and publications.</li>
+                <li>Maintained library record and ensured that they are up to
+                  date.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-container timeline-right">
+            <div class="timeline-content">
+              <h4><b><span style="color: #ff99ff;">Nov 2019 - Feb 2020</span></b></h4>
+              <b> </b>
+              <p><b><span style="color: #bfbfbf;">&nbsp;Library Assistant
+                    (Part-time ) | Alliance Français</span></b></p>
+              <ul>
+                <li><span style="color: #bfbfbf;"><span style="color: black;">Performed
+                      regular audits of the information and inventory on files.</span></span></li>
+                <li><span style=" color: #bfbfbf;"><span style=" color: black;">Registered
+                      and explained library information to new readers</span></span></li>
+                <li><span style="  color: #bfbfbf;"><span style="  color: black;">Took&nbsp;
+                      care of document management including
+                      borrowing,returning,renewing and booking books.<br>
+                    </span></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <hr align="center" width="50%" size="5" color="black"> <br>
+        <div class=" fw-bold    text-center">
+          <p class="fs-1"><a id="unv">UNIVERSITY ACTIVITY</a></p>
+        </div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleDark"
+
+              data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+
+              aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleDark"
+
+              data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000"> <img src="images/book.jpg"
+
+                class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p><span style="color: white;">Participate in activities with
+                    the library of the university Become a representative to
+                    select and buy books. At Book Week 2023 at Queen Sirikit
+                    National Convention Center </span></p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000"> <img src="images/arts.jpg"
+
+                class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p><span style="color: white;">Participate as a staff of Major
+                    in Library and Information Science, Faculty of Arts, at the
+                    event Aksara Academic Year 2023</span></p>
+              </div>
+            </div>
+            <div class="carousel-item"> <img src="images/dorm.jpg" class="d-block w-100"
+
+                alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p><span style="color: white;"> Volunteer work with the student
+                    dormitory unit Silpakorn University</span></p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+
+            data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next"
+
+            type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span> </button> </div>
+        <br>
+        <br>
+        <br>
+        <div class="custom-background">
+          <div class=" fw-bold    text-center">
+            <p class="fs-1"><a id="skl">SKILLS</a></p>
+          </div>
+          <div class="row">
+            <p class="fs-5 text-starter"><a><b>PROGRAM</b><br>
+              </a></p>
+            <div class="col-md-6 text-center"> <b>MICROSOFT &nbsp;WORD </b></div>
+            <div class="col-md-6">
+              <div class="progress" role="progressbar" aria-label="Warning example"
+
+                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar  bg-info text-dark" style="width: 80%">80%</div>
+              </div>
+              <br>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-6  text-center "><b>MICROSOFT &nbsp; EXCEL</b> </div>
+            <div class="col-md-6">
+              <div class="progress" role="progressbar" aria-label="Info example"
+
+                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-info text-dark" style="width: 60%">60%</div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-6  text-center "><b>HTML/CSS</b></div>
+            <div class="col-md-6">
+              <div class="progress" role="progressbar" aria-label="Info example"
+
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-6  text-center "><b>PHOTOSHOP</b> </div>
+            <div class="col-md-6">
+              <div class="progress" role="progressbar" aria-label="Info example"
+
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <p class="fs-5 text-starter"><a><b>LANGUAGES</b><br>
+              </a></p>
+            <div class="col-md-6 text-center"> <b>THAI</b> </div>
+            <div class="col-md-6">
+              <div class="progress" role="progressbar" aria-label="Warning example"
+
+                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar  bg-info text-dark" style="width: 80%">80%</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6  text-center "><b>ENGLISH </b></div>
+            <div class="col-md-6">
+              <div class="progress" role="progressbar" aria-label="Info example"
+
+                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-info text-dark" style="width: 65%">65%</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6  text-center "><b>FRENCH </b></div>
+            <div class="col-md-6">
+              <div class="progress" role="progressbar" aria-label="Info example"
+
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+        </div>
+        <hr align="center" width="50%" size="5" color="black"> <br>
+        <div class="row">
+          <p class="fs-1 text-center"><a class="nav-link" href="#" id="car">CAREER
+              OBJECTIVE</a><a> </a></p>
+        </div>
+        <br>
+        <img src="images/Be.jpg" alt="as" title="read"> <br>
+        <p style="text-align: center;"> <b>Currently seeking to progress a
+            career in the field of librarian position that I can apply my
+            ability and knowledge for continuous improvement and secure a
+            responsible career opportunity to fully utilize my training and
+            skills, while making a significant contribution to the success of
+            the company. </b></p>
+        <br>
+        <br>
+        <hr align="center" width="50%" size="5" color="black"> <br>
+        <div class="row">
+          <div class="col-md-3">
+            <p><a id="con"><b>Phone </b></a></p>
+            <p> 095-820-9162 </p>
+          </div>
+          <div class="col-md-3">
+            <p> <b>Email </b></p>
+            <p> <a href="mailto:Ditsadee_p@su.ac.th" target="_blank">Ditsadee_p@su.ac.th
+                </a></p> </div>
+          <div class="col-md-3">
+            <p> <b>Follow Me</b> </p>
+            <a href="https://www.facebook.com/patrada.ditsadee?locale=th_TH" target="_blank"><img
+
+                src="images/face.png" alt="fa" title="a" style="width: 35px; height: 35px;"></a></div>
+          <div class="col-md-3"> </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+
+crossorigin="anonymous"></script> </div>
+  </body>
+</html>
