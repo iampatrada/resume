@@ -1,6 +1,5 @@
 body {
   background-color:#FCEEE2;
-  font: 20px Montserrat, sans-serif;
    font-family: Helvetica, sans-serif;
 }
 .timeline {
@@ -93,10 +92,22 @@ body {
   border-radius: 6px;
 }
 
+.my-patrada{
+         text-transform: uppercase;
+         font-size: 40px;
+         line-height: 30px;
+}
+
 
 .custom-background {
     background-color: #fdfdeb; 
 }
 
 
+h1{
+  font-family: 'Titan One', sans-serif;
+}
 
+p{
+ font-family: 'BenchNine', sans-serif;
+}

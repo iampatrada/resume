@@ -3,13 +3,23 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Resume of Patrada</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link type="text/css
                 " rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&amp;display=swap"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300&amp;display=swap"
+      rel="stylesheet">
+    <meta name="description" content="This is Patrada's resume. It includes Education, Experience, skill, career object, university activity and contact.">
+    <meta name="keywords" content="Patrada,Education, Experience, skill, career object, resume,library,librarian">
   </head>
   <body>
     <div class="container-fluid">
@@ -37,14 +47,15 @@
             <span class="visually-hidden">Next</span> </button> </div>
       </div>
       <div class="row">
-        <nav class="navbar fixed-top  navbar-expand-lg bg-body-tertiary   ">
-          <div class="container-fluid   "> <a class="navbar-brand" href="#fr" target="_top">Patrada.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-              aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="  navbar-nav  t">
+        <nav class="navbar  fixed-top  navbar-expand-lg bg-body-tertiary   ">
+          <div class="container-fluid   ">
+            <h1> <a class="navbar-brand" href="#fr" target="_top">Patrada.</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+              </button> </h1>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
                 <li class="nav-item"> <a class="nav-link" href="#edu" target="_top">EDUCATION</a>
                 </li>
                 <li class="nav-item"> <a class="nav-link" href="#exp" target="_top">EXPERIENCE</a>
@@ -64,46 +75,95 @@
       </div>
       <div class="row">
         <div> <br>
+          <br>
         </div>
       </div>
+      <div class="custom-background">
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="my-patrada" style="text-align: center;"><br>
+            </h5>
+            <h1 class="my-patrada" style=" text-align: center;">PATRADA</h1>
+          </div>
+          <div class="col-md-6" style="text-align: center;"><img src="images/png.png"
+              alt="note" width="100"></div>
+          <div class="col-md-6" style="text-align: center;"><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6" style="text-align: center;"><img src="images/IMG_9740.jpg"
+              alt="bel" class="rounded-circle" style="width: 179px; height: 219px;"></div>
+          <div class="col-md-6" style="text-align: center;  font-size: 30px;">
+            <p> <b>Patrada [n.] an effective and creative communicator.<br>
+                Who,well-versed in library resources and services. Follow the
+                trend and taste of people. Service-minded by natural. </b></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6"> </div>
+          <div class="col-md-6" style="text-align: center;"> <a id="click" href="https://www.canva.com/design/DAFV0xu49Is/FsniPQpNh956kJPDKepRAw/view?utm_content=DAFV0xu49Is&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=publishsharelink"
+              target="_blank"><button type="button" class="btn btn-outline-danger">click
+                here for details</button></a></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6" style="text-align: right;"><img src="images/books.png"
+              alt="bk" style="width: 178px; height: 178px;"></div>
+        </div>
+        <br>
+      </div>
+      <br>
       <div class="row">
         <div class=" fw-bold    text-center">
-          <p class="fs-1"><a id="edu">EDUCATION</a></p>
+          <h1 class="fs-1"><a id="edu">EDUCATION</a></h1>
         </div>
         <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <br>
+        &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <br>
         <div class="col-md-6 card " style=" width: 18rem  "> <img src="images/silpa.jpg"
             alt="...">
           <div class=" card-body  "> <span class="placeholder col-12 bg-danger"></span>
-            <h5 class="card-title" style="text-align: center;"><b>UNIVERSITY</b></h5>
-            <b> </b>
-            <h5 class="card-title" style="text-align: center;"><b>(2018-2022)</b></h5>
-            <p class="card-text" style="text-align: center;">Bachelor of Arts,
-              Major in Information and Library Science <b>Silpakorn
-                University&nbsp;</b> </p>
-            <p class="card-text" style="text-align: center;">| GPA: 3.6</p>
+            <h5 class="card-title" style="  text-align: center;"><b>UNIVERSITY</b></h5>
+            <h5> </h5>
+            <h5> <b> </b> </h5>
+            <h5> </h5>
+            <h5 class="card-title" style="  text-align: center;"><b>(2018-2022)</b></h5>
+            <div style="text-align: center;">
+              <p><b>Bachelor of Arts, Major in Information and Library Science
+                  Silpakorn University&nbsp;</b></p>
+              <b> </b>
+              <p> </p>
+              <b> </b>
+              <p><b> | GPA: 3.6</b></p>
+            </div>
             <a href="https://www.su.ac.th" class="btn btn-primary" target="_blank">Go
               somewhere</a> </div>
           <br>
         </div>
         <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br>
         <div class=" card " style="width: 18rem  ;"> <img src="images/kpn.jpg"
             class="col-md-6 card-img-top" alt="...">
           <div class=" card-body  "> <span class="placeholder col-12 bg-danger"></span>
             <h5 class="card-title" style="text-align: center;"><b>HIGH SCHOOL</b></h5>
             <h5 class="card-title" style="text-align: center;"><b>(2015-2018)</b></h5>
-            <div style="text-align: center;"> Major in French and English</div>
-            <div style="text-align: center;"><b>Kanjanapisek wittayalai</b></div>
-            <div style="text-align: center;"><b> Nakhon Pathom school</b></div>
-            <div style="text-align: center;"> | GPA: 3.8 </div>
+            <div style="text-align: center;">
+              <p> <b>Major in French and English</b></p>
+            </div>
+            <p> </p>
+            <div style="text-align: center;">
+              <p><b>Kanjanapisek wittayalai</b></p>
+            </div>
+            <p> </p>
+            <div style="text-align: center;">
+              <p><b> Nakhon Pathom school</b></p>
+            </div>
+            <p> </p>
+            <div style="text-align: center;">
+              <p> <b>| GPA: 3.8 </b></p>
+            </div>
             <p></p>
             <a href="https://www.kjn.ac.th" class="btn btn-primary" target="_blank">Go
               somewhere</a> </div>
@@ -118,37 +178,48 @@
       <br>
       <div class="row">
         <div class=" fw-bold    text-center">
-          <p class="fs-1"><a id="exp">EXPERIENCE</a></p>
+          <h1 class="fs-1"><a id="exp">EXPERIENCE</a></h1>
         </div>
         <div class="timeline">
           <div class="timeline-container timeline-left">
             <div class="timeline-content">
               <h4> <b><span style="color: #ff99ff;">Feb 2021 - May 2021</span></b></h4>
-              <p><b><span style="color: #bfbfbf;">&nbsp;Librarian(Intern) | TK
-                    Park, Bangkok</span></b></p>
+              &nbsp; <b><span style="color: #bfbfbf;">Librarian(Intern) | TK
+                  Park, Bangkok</span></b><br>
               <ul>
-                <li>Collected and cataloged library resources including
-                  books,films and publications.</li>
-                <li>Maintained library record and ensured that they are up to
-                  date.</li>
+                <li>
+                  <p><b>Collected and cataloged library resources including
+                      books,films and publications.</b></p>
+                </li>
+                <li>
+                  <p><b>Maintained library record and ensured that they are up
+                      to date.</b></p>
+                </li>
               </ul>
             </div>
           </div>
           <div class="timeline-container timeline-right">
             <div class="timeline-content">
               <h4><b><span style="color: #ff99ff;">Nov 2019 - Feb 2020</span></b></h4>
-              <b> </b>
-              <p><b><span style="color: #bfbfbf;">&nbsp;Library Assistant
-                    (Part-time ) | Alliance Français</span></b></p>
+              &nbsp; <b> </b> <b><span style="color: #bfbfbf;">Library
+                  Assistant (Part-time ) | Alliance Français</span></b><br>
               <ul>
-                <li><span style="color: #bfbfbf;"><span style="color: black;">Performed
-                      regular audits of the information and inventory on files.</span></span></li>
-                <li><span style=" color: #bfbfbf;"><span style=" color: black;">Registered
-                      and explained library information to new readers</span></span></li>
-                <li><span style="  color: #bfbfbf;"><span style="  color: black;">Took&nbsp;
-                      care of document management including
-                      borrowing,returning,renewing and booking books.<br>
-                    </span></span></li>
+                <li>
+                  <p><b><span style="color: #bfbfbf;"><span style="color: black;">Performed
+                          regular audits of the information and inventory on
+                          files.</span></span></b></p>
+                </li>
+                <li>
+                  <p><b><span style=" color: #bfbfbf;"><span style=" color: black;">Registered
+                          and explained library information to new readers</span></span></b></p>
+                </li>
+                <li>
+                  <p><b><span style="  color: #bfbfbf;"><span style="  color: black;">Took&nbsp;
+                          care of document management including
+                          borrowing,returning,renewing and booking books.</span></span></b></p>
+                  <p><span style="  color: #bfbfbf;"><span style="  color: black;">
+                      </span></span></p>
+                </li>
               </ul>
             </div>
           </div>
@@ -158,7 +229,7 @@
         <br>
         <hr align="center" width="50%" size="5" color="black"> <br>
         <div class=" fw-bold    text-center">
-          <p class="fs-1"><a id="unv">UNIVERSITY ACTIVITY</a></p>
+          <h1 class="fs-1"><a id="unv">UNIVERSITY ACTIVITY</a></h1>
         </div>
         <div id="carouselExampleDark" class="carousel carousel-dark slide">
           <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleDark"
@@ -172,7 +243,8 @@
               <div class="carousel-caption d-none d-md-block">
                 <p><span style="color: white;">Participate in activities with
                     the library of the university Become a representative to
-                    select and buy books at Thai Book Fair 2022 . </span></p>
+                    select and buy books. At Book Week 2023 at Queen Sirikit
+                    National Convention Center </span></p>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000"> <img src="images/arts.jpg"
@@ -202,7 +274,7 @@
         <br>
         <div class="custom-background">
           <div class=" fw-bold    text-center">
-            <p class="fs-1"><a id="skl">SKILLS</a></p>
+            <h1 class="fs-1"><a id="skl">SKILLS</a></h1>
           </div>
           <div class="row">
             <p class="fs-5 text-starter"><a><b>PROGRAM</b><br>
@@ -281,21 +353,22 @@
         </div>
         <hr align="center" width="50%" size="5" color="black"> <br>
         <div class="row">
-          <p class="fs-1 text-center"><a class="nav-link" href="#" id="car">CAREER
-              OBJECTIVE</a><a> </a></p>
+          <h1 class="fs-1 text-center"><a class="nav-link" href="#" id="car">CAREER
+              OBJECTIVE</a><a> </a></h1>
         </div>
         <br>
         <img src="images/Be.jpg" alt="as" title="read"> <br>
-        <p style="text-align: center;"> Currently seeking to progress a career
-          in the field of librarian position that I can apply my ability and
-          knowledge for continuous improvement and secure a responsible career
-          opportunity to fully utilize my training and skills, while making a
-          significant contribution to the success of the company. </p>
-        <br>
-        <br>
-        <hr align="center" width="50%" size="5" color="black"> <br>
+        <p style="text-align: center;  font-size: 20px;"> <b>I'm Patrada who,
+            currently seeking to progress a career in the field of librarian
+            position that I can apply my ability and knowledge for continuous
+            improvement and secure a responsible career opportunity to fully
+            utilize my training and skills, while making a significant
+            contribution to the success of the company</b></p>
+        <hr align="center" width="50%" size="5" color="black">
+        <p> </p>
+        <p> </p>
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 ">
             <p><a id="con"><b>Phone </b></a></p>
             <p> 095-820-9162 </p>
           </div>
@@ -305,15 +378,43 @@
                 </a></p> </div>
           <div class="col-md-3">
             <p> <b>Follow Me</b> </p>
-            <a href="https://www.facebook.com/patrada.ditsadee?locale=th_TH" target="_blank"><img
-                src="images/face.png" alt="fa" title="a" style="width: 35px; height: 35px;"></a></div>
-          <div class="col-md-3">
-            <p> ID STUDENT: 640510574</p>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <p class="accordion-header"> <button class="accordion-button collapsed"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                    aria-expanded="false" aria-controls="flush-collapseOne">
+                    Facebook</button> </p>
+                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Pleas follow me "Patrada Ditsadee"
+                    or
+                    <p><a class="link-opacity-100" href="https://www.facebook.com/patrada.ditsadee">click
+                        this link</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <p class="accordion-header"> <button class="accordion-button collapsed"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Instagram </button> </p>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Pleas follow my ig account
+                    "@_lazybex.x" or
+                    <p><a class="link-opacity-100" href="%20https://www.instagram.com/_lazybex.x/?shem=iosie">click
+                        this link</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="col-md-3"> </div>
       </div>
+      <br>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-crossorigin="anonymous"></script> </div>
+crossorigin="anonymous"></script></div>
   </body>
 </html>
